@@ -173,3 +173,8 @@
 #fundo{
 			background:linear-gradient(white, #D3D3D3);
 				}
+
+
+#bg-grass{
+			background-image: url("../Imagens/Backgrounds/grass-bg.png");
+			}
