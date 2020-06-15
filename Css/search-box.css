@@ -1,0 +1,23 @@
+
+.search-box {
+				display:flex;
+				align-items:right;
+				float:right;
+				justify-content:right;
+				position:relative;
+				}
+			
+#barra{
+				height:28px;
+				width:300px;
+				align:top;
+				background:#4F4F4F;
+				border-radius:20px;
+				box-shadow: 3px 0px 4px black;
+				}
+				
+#botao{
+				background:#4F4F4F;
+				border-radius:50%;
+				box-shadow: 2px 2px 3px black;
+				}

@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="keyword" content="Pokemon, Pokedex">
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+      <link href="Css/estilo.css" rel="stylesheet" type="text/css">
+      <link href="Css/background.css" rel="stylesheet" type="text/css">
+      <link href="Css/navbar.css" rel="stylesheet" type="text/css">
+      <link href="Css/search-box.css" rel="stylesheet" type="text/css">
+      <link href="Css/lista.css" rel="stylesheet" type="text/css">
+
+      <title>MarcDex</title>
+      
+   </head>
+   
+   <body>
+      <header id="header">
+         <script src="header-script.js"></script>
+            <div class="cabecalho">
+              
+               <div style="display:flex; justify-content: center;">
+                  <img class="imagem" id="region" src="Imagens/Icones/logo.png" style="width:87%; height:400px; 	border-style:double; border-width:6px;">
+               </div>
+   
+              </br>           
+             <div class="search-box" style="display:flex; justify-content: center;">
+             </br>
+               <form action="" method="submit" class="pesquisa">
+                <input id="barra" type="search" placeholder="   Escolha um pokémon...">
+                  <button id="botao" type="submit"><img src="Imagens/Icones/search_icon.png" width ="15px" height="22px" align="center"></button>
+              </div>
+              </br>
+               
+              <div id="galeria" style="position:relative;">
+              </br>
+                  <img class="selected" src="Imagens/Galeria/S7.jpeg" alt="Image1">
+                  <img src="Imagens/Galeria/S1.jpeg" alt="Image2">
+                  <img src="Imagens/Galeria/S4.jpeg" alt="Image3">
+                  <img src="Imagens/Galeria/S3.jpeg" alt="Image4">
+                  <img src="Imagens/Galeria/S5.jpeg" alt="Image5">
+                  <img src="Imagens/Galeria/S6.jpeg" alt="Image6">
+                  <img src="Imagens/Galeria/S2.jpeg" alt="Image7">
+               </div>
+               
+               <script src="Js/script.js"></script>
+               
+              <div  class="navbar">
+                 <div class="img-box0">
+                 <a href="index-kanto.html"><img class="img-default" src="Imagens/Icones/dex.png" height="80" width="80">
+                 <img class="img-hover" src="Imagens/Icones/sec_dex.png" height="90" width="90"></a>
+                 </div>
+              
+                 <div class="img-box1">
+                 <img class="img-default" src="Imagens/Icones/rank.png" height="80" width="80">
+                <img class="img-hover" src="Imagens/Icones/sec_rank.png" height="90" width="90"> 
+                </div>
+                 
+                <div class="img-box2">
+                 <img class="img-default" src="Imagens/Icones/pvp.png" height="80" width="80">
+                 <img class="img-hover" src="Imagens/Icones/sec_pvp.png" height="90" width="90">
+                 </div>
+                
+                <div class="img-box3">
+                 <img class="img-default" src="Imagens/Icones/raid.png" height="80" width="80">
+                 <img class="img-hover" src="Imagens/Icones/sec_raid.png" height="90" width="90">
+                 </div>
+               </br>
+               </div>
+            
+              
+         </header>
+      
+      </br>
+      </br>
+      </br>
+      
+      <div class="box">
+      </br>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+            <script src="Js/lista.js"></script>
+            <input class="lista" type="button" value="REGIÃO &#8628;" id="successBtn">
+   </br>
+         <div id="produtos" class="lista" style="display: none;">
+                     <ul style="list-style-type:none;">
+                        <li><a href="index-kanto.html">• KANTO • </a></li>
+                        <li><a href="#">• JOHTO • </a></li>
+                        <li><a href="#">• HOENN • </a></li>
+                        <li><a href="#">• SINNOH • </a></li>
+                        <li><a href="#">• UNOVA •</a></li>
+                     </ul>
+                  </br>
+         </div>
+      </br>
+         
+         <table class="letra" id="tabela_dex" cellspacing="0" style="overflow-x:auto; width: 70%;">
+            <tr class="linha" id="c1">
+               <td>#</td>
+               <td>Nome</td>
+               <td>Tipo</td>
+               <td>Pokémon</td>
+            </tr>
+            <tr onclick="location.href='Pokedex/Kanto/001.html';" style="cursor:pointer;" id="grass_poison">
+               <td>001</td>
+               <td>Bulbasaur</td>
+               <td><img src="Imagens/Tipos/grass.png"></br><img src="Imagens/Tipos/poison.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/001.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr onclick="location.href='Pokedex/Kanto/002.html';" style="cursor:pointer;" id="grass_poison">
+               <td>002</td>
+               <td>Ivysaur</td>
+               <td><img src="Imagens/Tipos/Grass.png"></br><img src="Imagens/Tipos/poison.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/002.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr onclick="location.href='Pokedex/Kanto/003.html';" style="cursor:pointer;" id="grass_poison">
+               <td>003</td>
+               <td>Venusaur</td>
+               <td><img src="Imagens/Tipos/Grass.png"></br><img src="Imagens/Tipos/poison.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/003.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr onclick="location.href='Pokedex/Kanto/004.html';" style="cursor:pointer;" id="fire">
+               <td>004</td>
+               <td>Charmander</td>
+               <td><img src="Imagens/Tipos/fire.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/004.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr onclick="location.href='Pokedex/Kanto/005.html';" style="cursor:pointer;" id="fire">
+               <td>005</td>
+               <td>Charmelion</td>
+               <td><img src="Imagens/Tipos/fire.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/005.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr onclick="location.href='Pokedex/Kanto/006.html';" style="cursor:pointer;" id="fire_fly">
+               <td>006</td>
+               <td>Charizard</td>
+               <td><img src="Imagens/Tipos/fire.png"></br><img src="Imagens/Tipos/flying.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/006.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr onclick="location.href='Pokedex/Kanto/007.html';" style="cursor:pointer;" id="water">
+               <td>007</td>
+               <td>Squirtle</td>
+               <td><img src="Imagens/Tipos/water.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/007.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr onclick="location.href='Pokedex/Kanto/008.html';" style="cursor:pointer;" id="water">
+               <td>008</td>
+               <td>Wartortle</td>
+               <td><img src="Imagens/Tipos/water.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/008.png" width="100px" heidth="100px"></td>
+            </tr>
+            </tr>
+            <tr  onclick="location.href='Pokedex/Kanto/009.html';" style="cursor:pointer;" id="water">
+               <td>009</td>
+               <td>Blastoise</td>
+               <td><img src="Imagens/Tipos/water.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/009.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="bug">
+               <td>010</td>
+               <td>Caterpie</td>
+               <td><img src="Imagens/Tipos/bug.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/010.png" width="90px" heidth="90px"></td>
+            </tr>
+            <tr id="bug">
+               <td>011</td>
+               <td>Metapod</td>
+               <td><img src="Imagens/Tipos/bug.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/011.png" width="90px" heidth="90px"></td>
+            </tr>
+            <tr id="bug_fly">
+               <td>012</td>
+               <td>Butterfree</td>
+               <td><img src="Imagens/Tipos/bug.png"></br><img src="Imagens/Tipos/flying.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/012.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="bug_poison">
+               <td>013</td>
+               <td>Weedle</td>
+               <td><img src="Imagens/Tipos/bug.png"></br><img src="Imagens/Tipos/poison.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/013.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="bug_poison">
+               <td>014</td>
+               <td>Kakuna</td>
+               <td><img src="Imagens/Tipos/bug.png"></br><img src="Imagens/Tipos/poison.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/014.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="bug_poison">
+               <td>015</td>
+               <td>Beedrill</td>
+               <td><img src="Imagens/Tipos/bug.png"></br><img src="Imagens/Tipos/poison.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/015.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="normal_fly">
+               <td>016</td>
+               <td>Pidgey</td>
+               <td><img src="Imagens/Tipos/normal.png"></br><img src="Imagens/Tipos/flying.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/016.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="normal_fly">
+               <td>017</td>
+               <td>Pidgeotto</td>
+               <td><img src="Imagens/Tipos/normal.png"></br><img src="Imagens/Tipos/flying.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/017.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="normal_fly">
+               <td>018</td>
+               <td>Pidgeot</td>
+               <td><img src="Imagens/Tipos/normal.png"></br><img src="Imagens/Tipos/flying.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/018.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="normal">
+               <td>019</td>
+               <td>Rattata</td>
+               <td><img src="Imagens/Tipos/normal.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/019.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="normal">
+               <td>020</td>
+               <td>Raticate</td>
+               <td><img src="Imagens/Tipos/normal.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/020.png" width="110px" heidth="110px"></td>
+            </tr>
+            <tr id="normal_fly">
+               <td>021</td>
+               <td>Spearow</td>
+               <td><img src="Imagens/Tipos/normal.png"></br><img src="Imagens/Tipos/flying.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/021.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="normal_fly">
+               <td>022</td>
+               <td>Fearow</td>
+               <td><img src="Imagens/Tipos/normal.png"></br><img src="Imagens/Tipos/flying.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/022.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="poison">
+               <td>023</td>
+               <td>Ekans</td>
+               <td><img src="Imagens/Tipos/poison.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/023.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="poison">
+               <td>024</td>
+               <td>Arbok</td>
+               <td><img src="Imagens/Tipos/poison.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/024.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="electric">
+               <td>025</td>
+               <td>Pikachu</td>
+               <td><img src="Imagens/Tipos/electric.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/025.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="electric">
+               <td>026</td>
+               <td>Raichu</td>
+               <td><img src="Imagens/Tipos/electric.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/026.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="ground">
+               <td>027</td>
+               <td>Sandshrew</td>
+               <td><img src="Imagens/Tipos/ground.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/027.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="ground">
+               <td>028</td>
+               <td>Sandslash</td>
+               <td><img src="Imagens/Tipos/ground.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/028.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="poison">
+               <td>029</td>
+               <td>Nidoran ♀</td>
+               <td><img src="Imagens/Tipos/poison.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/029.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="poison">
+               <td>030</td>
+               <td>Nidorina</td>
+               <td><img src="Imagens/Tipos/poison.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/030.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="poison_ground">
+               <td>031</td>
+               <td>Nidoqueen</td>
+               <td><img src="Imagens/Tipos/poison.png"></br><img src="Imagens/Tipos/ground.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/031.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="poison">
+               <td>032</td>
+               <td>Nidoran ♂</td>
+               <td><img src="Imagens/Tipos/poison.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/032.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="poison">
+               <td>033</td>
+               <td>Nidorino</td>
+               <td><img src="Imagens/Tipos/poison.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/033.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="poison_ground">
+               <td>034</td>
+               <td>Nidoking</td>
+               <td><img src="Imagens/Tipos/poison.png"><br><img src="Imagens/Tipos/ground.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/034.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="fairy">
+               <td>035</td>
+               <td>Clefairy</td>
+               <td><img src="Imagens/Tipos/fairy.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/035.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="fairy">
+               <td>036</td>
+               <td>Clefable</td>
+               <td><img src="Imagens/Tipos/fairy.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/036.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="fire">
+               <td>037</td>
+               <td>Vulpix</td>
+               <td><img src="Imagens/Tipos/fire.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/037.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="fire">
+               <td>038</td>
+               <td>Ninetales</td>
+               <td><img src="Imagens/Tipos/fire.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/038.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="normal_fairy">
+               <td>039</td>
+               <td>Jigglypuff</td>
+               <td><img src="Imagens/Tipos/normal.png"></br><img src="Imagens/Tipos/fairy.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/039.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="normal_fairy">
+               <td>040</td>
+               <td>Wigglytuff</td>
+               <td><img src="Imagens/Tipos/normal.png"></br><img src="Imagens/Tipos/fairy.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/040.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="poison_fly">
+               <td>041</td>
+               <td>Zubat</td>
+               <td><img src="Imagens/Tipos/poison.png"></br><img src="Imagens/Tipos/flying.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/041.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="poison_fly">
+               <td>042</td>
+               <td>Golbat</td>
+               <td><img src="Imagens/Tipos/poison.png"></br><img src="Imagens/Tipos/flying.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/042.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="grass_poison">
+               <td>043</td>
+               <td>Oddish</td>
+               <td><img src="Imagens/Tipos/grass.png"></br><img src="Imagens/Tipos/poison.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/043.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="grass_poison">
+               <td>044</td>
+               <td>Gloom</td>
+               <td><img src="Imagens/Tipos/grass.png"></br><img src="Imagens/Tipos/poison.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/044.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="grass_poison">
+               <td>045</td>
+               <td>Vileplume</td>
+               <td><img src="Imagens/Tipos/grass.png"></br><img src="Imagens/Tipos/poison.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/045.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="bug_grass">
+               <td>046</td>
+               <td>Paras</td>
+               <td><img src="Imagens/Tipos/bug.png"></br><img src="Imagens/Tipos/grass.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/046.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="bug_grass">
+               <td>047</td>
+               <td>Parasect</td>
+               <td><img src="Imagens/Tipos/bug.png"></br><img src="Imagens/Tipos/grass.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/047.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="bug_poison">
+               <td>048</td>
+               <td>Venonat</td>
+               <td><img src="Imagens/Tipos/bug.png"></br><img src="Imagens/Tipos/poison.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/048.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="bug_poison">
+               <td>049</td>
+               <td>Venomoth</td>
+               <td><img src="Imagens/Tipos/bug.png"></br><img src="Imagens/Tipos/poison.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/049.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="ground">
+               <td>050</td>
+               <td>Diglett</td>
+               <td><img src="Imagens/Tipos/ground.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/050.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="ground">
+               <td>051</td>
+               <td>Dugtrio</td>
+               <td><img src="Imagens/Tipos/ground.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/051.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="normal">
+               <td>052</td>
+               <td>Meowth</td>
+               <td><img src="Imagens/Tipos/normal.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/052.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="normal">
+               <td>053</td>
+               <td>Persian</td>
+               <td><img src="Imagens/Tipos/normal.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/053.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="water">
+               <td>054</td>
+               <td>Psyduck</td>
+               <td><img src="Imagens/Tipos/water.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/054.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="water">
+               <td>055</td>
+               <td>Golduck</td>
+               <td><img src="Imagens/Tipos/water.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/055.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="fight">
+               <td>056</td>
+               <td>Mankey</td>
+               <td><img src="Imagens/Tipos/fighting.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/056.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="fight">
+               <td>057</td>
+               <td>Primeape</td>
+               <td><img src="Imagens/Tipos/fighting.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/057.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="fire">
+               <td>058</td>
+               <td>Growlithe</td>
+               <td><img src="Imagens/Tipos/fire.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/058.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="fire">
+               <td>059</td>
+               <td>Arcanine</td>
+               <td><img src="Imagens/Tipos/fire.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/059.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="water">
+               <td>060</td>
+               <td>Poliwag</td>
+               <td><img src="Imagens/Tipos/water.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/060.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="water">
+               <td>061</td>
+               <td>Poliwhirl</td>
+               <td><img src="Imagens/Tipos/water.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/061.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="water_fight">
+               <td>062</td>
+               <td>Poliwrath</td>
+               <td><img src="Imagens/Tipos/water.png"></br><img src="Imagens/Tipos/fighting.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/062.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="psychic">
+               <td>063</td>
+               <td>Abra</td>
+               <td><img src="Imagens/Tipos/psychic.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/063.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="psychic">
+               <td>064</td>
+               <td>Kadabra</td>
+               <td><img src="Imagens/Tipos/psychic.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/064.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="psychic">
+               <td>065</td>
+               <td>Alakazam</td>
+               <td><img src="Imagens/Tipos/psychic.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/065.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="fight">
+               <td>066</td>
+               <td>Machop</td>
+               <td><img src="Imagens/Tipos/fighting.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/066.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="fight">
+               <td>067</td>
+               <td>Machoke</td>
+               <td><img src="Imagens/Tipos/fighting.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/067.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="fight">
+               <td>068</td>
+               <td>Machamp</td>
+               <td><img src="Imagens/Tipos/fighting.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/068.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="grass_poison">
+               <td>069</td>
+               <td>Bellsprout</td>
+               <td><img src="Imagens/Tipos/grass.png"></br><img src="Imagens/Tipos/poison.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/069.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="grass_poison">
+               <td>070</td>
+               <td>Weepinbell</td>
+               <td><img src="Imagens/Tipos/grass.png"></br><img src="Imagens/Tipos/poison.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/070.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="grass_poison">
+               <td>071</td>
+               <td>Victreebel</td>
+               <td><img src="Imagens/Tipos/grass.png"></br><img src="Imagens/Tipos/poison.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/071.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="water_poison">
+               <td>072</td>
+               <td>Tentacool</td>
+               <td><img src="Imagens/Tipos/water.png"></br><img src="Imagens/Tipos/poison.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/072.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="water_poison">
+               <td>073</td>
+               <td>Tentacruel</td>
+               <td><img src="Imagens/Tipos/water.png"></br><img src="Imagens/Tipos/poison.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/073.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="rock_ground">
+               <td>074</td>
+               <td>Geodude</td>
+               <td><img src="Imagens/Tipos/rock.png"></br><img src="Imagens/Tipos/ground.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/074.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="rock_ground">
+               <td>075</td>
+               <td>Graveler</td>
+               <td><img src="Imagens/Tipos/rock.png"></br><img src="Imagens/Tipos/ground.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/075.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="rock_ground">
+               <td>076</td>
+               <td>Golem</td>
+               <td><img src="Imagens/Tipos/rock.png"></br><img src="Imagens/Tipos/ground.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/076.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="fire">
+               <td>077</td>
+               <td>Ponyta</td>
+               <td><img src="Imagens/Tipos/fire.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/077.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="fire">
+               <td>078</td>
+               <td>Rapidash</td>
+               <td><img src="Imagens/Tipos/fire.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/078.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="water_psychic">
+               <td>079</td>
+               <td>Slowpoke</td>
+               <td><img src="Imagens/Tipos/water.png"></br><img src="Imagens/Tipos/psychic.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/079.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="water_psychic">
+               <td>080</td>
+               <td>Slowbro</td>
+               <td><img src="Imagens/Tipos/water.png"></br><img src="Imagens/Tipos/psychic.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/080.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="electric_steel">
+               <td>081</td>
+               <td>Magnemite</td>
+               <td><img src="Imagens/Tipos/electric.png"></br><img src="Imagens/Tipos/steel.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/081.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="electric_steel">
+               <td>082</td>
+               <td>Magneton</td>
+               <td><img src="Imagens/Tipos/electric.png"></br><img src="Imagens/Tipos/steel.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/082.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="normal_fly">
+               <td>083</td>
+               <td>Farfetch'd</td>
+               <td><img src="Imagens/Tipos/normal.png"></br><img src="Imagens/Tipos/flying.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/083.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="normal_fly">
+               <td>084</td>
+               <td>Doduo</td>
+               <td><img src="Imagens/Tipos/normal.png"></br><img src="Imagens/Tipos/flying.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/084.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="normal_fly">
+               <td>085</td>
+               <td>Dodrio</td>
+               <td><img src="Imagens/Tipos/normal.png"></br><img src="Imagens/Tipos/flying.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/085.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="water">
+               <td>086</td>
+               <td>Seel</td>
+               <td><img src="Imagens/Tipos/water.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/086.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="water_ice">
+               <td>087</td>
+               <td>Dewgong</td>
+               <td><img src="Imagens/Tipos/water.png"></br><img src="Imagens/Tipos/ice.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/087.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="poison">
+               <td>088</td>
+               <td>Grimer</td>
+               <td><img src="Imagens/Tipos/poison.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/088.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="poison">
+               <td>089</td>
+               <td>Muk</td>
+               <td><img src="Imagens/Tipos/poison.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/089.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="water">
+               <td>090</td>
+               <td>Shellder</td>
+               <td><img src="Imagens/Tipos/water.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/090.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="water_ice">
+               <td>091</td>
+               <td>Cloyster</td>
+               <td><img src="Imagens/Tipos/water.png"></br><img src="Imagens/Tipos/ice.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/091.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="ghost">
+               <td>092</td>
+               <td>Gastly</td>
+               <td><img src="Imagens/Tipos/ghost.png"></br><img src="Imagens/Tipos/poison.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/092.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="ghost">
+               <td>093</td>
+               <td>Haunter</td>
+               <td><img src="Imagens/Tipos/ghost.png"></br><img src="Imagens/Tipos/poison.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/093.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="ghost">
+               <td>094</td>
+               <td>Gengar</td>
+               <td><img src="Imagens/Tipos/ghost.png"></br><img src="Imagens/Tipos/poison.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/094.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="rock_ground">
+               <td>095</td>
+               <td>Onix</td>
+               <td><img src="Imagens/Tipos/rock.png"></br><img src="Imagens/Tipos/ground.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/095.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="psychic">
+               <td>096</td>
+               <td>Drowzee</td>
+               <td><img src="Imagens/Tipos/psychic.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/096.png" width="110px" heidth="110px"></td>
+            </tr>
+            <tr id="psychic">
+               <td>097</td>
+               <td>Hypno</td>
+               <td><img src="Imagens/Tipos/psychic.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/097.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="water">
+               <td>098</td>
+               <td>Krabby</td>
+               <td><img src="Imagens/Tipos/water.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/098.png" width="100px" heidth="100"></td>
+            </tr>
+            <tr id="water">
+               <td>099</td>
+               <td>Kingler</td>
+               <td><img src="Imagens/Tipos/water.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/099.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="electric">
+               <td>100</td>
+               <td>Voltorb</td>
+               <td><img src="Imagens/Tipos/electric.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/100.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="electric">
+               <td>101</td>
+               <td>Electrode</td>
+               <td><img src="Imagens/Tipos/electric.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/101.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="grass_psychic">
+               <td>102</td>
+               <td>Exeggcute</td>
+               <td><img src="Imagens/Tipos/grass.png"></br><img src="Imagens/Tipos/psychic.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/102.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="grass_psychic">
+               <td>103</td>
+               <td>Exeggutor</td>
+               <td><img src="Imagens/Tipos/grass.png"></br><img src="Imagens/Tipos/psychic.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/103.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="ground">
+               <td>104</td>
+               <td>Cubone</td>
+               <td><img src="Imagens/Tipos/ground.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/104.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="ground">
+               <td>105</td>
+               <td>Marowak</td>
+               <td><img src="Imagens/Tipos/ground.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/105.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="fight">
+               <td>106</td>
+               <td>Hitmonlee</td>
+               <td><img src="Imagens/Tipos/fighting.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/106.png" width="110px" heidth="110px"></td>
+            </tr>
+            <tr id="fight">
+               <td>107</td>
+               <td>Hitmonchan</td>
+               <td><img src="Imagens/Tipos/fighting.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/107.png" width="110px" heidth="110px"></td>
+            </tr>
+            <tr id="normal">
+               <td>108</td>
+               <td>lickitung</td>
+               <td><img src="Imagens/Tipos/normal.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/108.png" width="110px" heidth="110px"></td>
+            </tr>
+            <tr id="poison">
+               <td>109</td>
+               <td>Koffing</td>
+               <td><img src="Imagens/Tipos/poison.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/109.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="poison">
+               <td>110</td>
+               <td>Weezing</td>
+               <td><img src="Imagens/Tipos/poison.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/110.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="rock_ground">
+               <td>111</td>
+               <td>Rhyhorn</td>
+               <td><img src="Imagens/Tipos/ground.png"></br><img src="Imagens/Tipos/rock.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/111.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="rock_ground">
+               <td>112</td>
+               <td>Rhydon</td>
+               <td><img src="Imagens/Tipos/ground.png"></br><img src="Imagens/Tipos/rock.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/112.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="normal">
+               <td>113</td>
+               <td>Chansey</td>
+               <td><img src="Imagens/Tipos/normal.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/113.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="grass">
+               <td>114</td>
+               <td>Tangela</td>
+               <td><img src="Imagens/Tipos/grass.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/114.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="normal">
+               <td>115</td>
+               <td>Kangaskhan</td>
+               <td><img src="Imagens/Tipos/normal.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/115.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="water">
+               <td>116</td>
+               <td>Horsea</td>
+               <td><img src="Imagens/Tipos/water.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/116.png" width="90px" heidth="90px"></td>
+            </tr>
+            <tr id="water">
+               <td>117</td>
+               <td>Seadra</td>
+               <td><img src="Imagens/Tipos/water.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/117.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="water">
+               <td>118</td>
+               <td>Goldeen</td>
+               <td><img src="Imagens/Tipos/water.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/118.png" width="110px" heidth="110px"></td>
+            </tr>
+            <tr id="water">
+               <td>119</td>
+               <td>Seaking</td>
+               <td><img src="Imagens/Tipos/water.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/119.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="water">
+               <td>120</td>
+               <td>Staryu</td>
+               <td><img src="Imagens/Tipos/water.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/120.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="water_psychic">
+               <td>121</td>
+               <td>Starmie</td>
+               <td><img src="Imagens/Tipos/water.png"></br><img src="Imagens/Tipos/psychic.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/121.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="psychic_fairy">
+               <td>122</td>
+               <td>Mr.Mime</td>
+               <td><img src="Imagens/Tipos/psychic.png"></br><img src="Imagens/Tipos/fairy.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/122.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="bug_fly">
+               <td>123</td>
+               <td>Scyther</td>
+               <td><img src="Imagens/Tipos/bug.png"></br><img src="Imagens/Tipos/flying.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/123.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="ice_psychic">
+               <td>124</td>
+               <td>Jynx</td>
+               <td><img src="Imagens/Tipos/ice.png"></br><img src="Imagens/Tipos/psychic.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/124.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="electric">
+               <td>125</td>
+               <td>Electabuzz</td>
+               <td><img src="Imagens/Tipos/electric.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/125.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="fire">
+               <td>126</td>
+               <td>Magmar</td>
+               <td><img src="Imagens/Tipos/fire.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/126.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="bug">
+               <td>127</td>
+               <td>Pinsir</td>
+               <td><img src="Imagens/Tipos/bug.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/127.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="normal">
+               <td>128</td>
+               <td>Tauros</td>
+               <td><img src="Imagens/Tipos/normal.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/128.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="water">
+               <td>129</td>
+               <td>Magikarp</td>
+               <td><img src="Imagens/Tipos/water.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/129.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="water_fly">
+               <td>130</td>
+               <td>Gyarados</td>
+               <td><img src="Imagens/Tipos/water.png"></br><img src="Imagens/Tipos/flying.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/130.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="water_ice">
+               <td>131</td>
+               <td>Lapras</td>
+               <td><img src="Imagens/Tipos/water.png"></br><img src="Imagens/Tipos/ice.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/131.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="normal">
+               <td>132</td>
+               <td>Ditto</td>
+               <td><img src="Imagens/Tipos/normal.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/132.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="normal">
+               <td>133</td>
+               <td>Eevee</td>
+               <td><img src="Imagens/Tipos/normal.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/133.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="water">
+               <td>134</td>
+               <td>Vaporeon</td>
+               <td><img src="Imagens/Tipos/water.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/134.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="electric">
+               <td>135</td>
+               <td>Jolteon</td>
+               <td><img src="Imagens/Tipos/electric.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/135.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="fire">
+               <td>136</td>
+               <td>Flareon</td>
+               <td><img src="Imagens/Tipos/fire.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/136.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="normal">
+               <td>137</td>
+               <td>Porygon</td>
+               <td><img src="Imagens/Tipos/normal.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/137.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="rock_water">
+               <td>138</td>
+               <td>Omanyte</td>
+               <td><img src="Imagens/Tipos/rock.png"></br><img src="Imagens/Tipos/water.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/138.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="rock_water">
+               <td>139</td>
+               <td>Omastar</td>
+               <td><img src="Imagens/Tipos/rock.png"></br><img src="Imagens/Tipos/water.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/139.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="rock_water">
+               <td>140</td>
+               <td>Kabuto</td>
+               <td><img src="Imagens/Tipos/rock.png"></br><img src="Imagens/Tipos/water.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/140.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="rock_water">
+               <td>141</td>
+               <td>Kabutops</td>
+               <td><img src="Imagens/Tipos/rock.png"></br><img src="Imagens/Tipos/water.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/141.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="rock_fly">
+               <td>142</td>
+               <td>Aerodactyl</td>
+               <td><img src="Imagens/Tipos/rock.png"></br><img src="Imagens/Tipos/flying.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/142.png" width="130px" heidth="130px"></td>
+            </tr>
+            <tr id="normal">
+               <td>143</td>
+               <td>Snorlax</td>
+               <td><img src="Imagens/Tipos/normal.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/143.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="ice_fly">
+               <td>144</td>
+               <td>Articuno</td>
+               <td><img src="Imagens/Tipos/ice.png"></br><img src="Imagens/Tipos/flying.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/144.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="electric_fly">
+               <td>145</td>
+               <td>Zapdos</td>
+               <td><img src="Imagens/Tipos/electric.png"></br><img src="Imagens/Tipos/flying.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/145.png" width="130px" heidth="130px"></td>
+            </tr>
+            <tr id="fire_fly">
+               <td>146</td>
+               <td>Moltres</td>
+               <td><img src="Imagens/Tipos/fire.png"></br><img src="Imagens/Tipos/flying.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/146.png" width="140px" heidth="140px"></td>
+            </tr>
+            <tr id="dragon">
+               <td>147</td>
+               <td>Dratini</td>
+               <td><img src="Imagens/Tipos/dragon.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/147.png" width="100px" heidth="100px"></td>
+            </tr>
+            <tr id="dragon">
+               <td>148</td>
+               <td>Dragonair</td>
+               <td><img src="Imagens/Tipos/dragon.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/148.png" width="120px" heidth="120px"></td>
+            </tr>
+            <tr id="dragon_fly">
+               <td>149</td>
+               <td>Dragonite</td>
+               <td><img src="Imagens/Tipos/dragon.png"></br><img src="Imagens/Tipos/flying.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/149.png" width="130px" heidth="130px"></td>
+            </tr>
+            <tr id="psychic">
+               <td>150</td>
+               <td>Mewtwo</td>
+               <td><img src="Imagens/Tipos/psychic.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/150.png" width="130px" heidth="130px"></td>
+            </tr>
+            <tr id="psychic">
+               <td>151</td>
+               <td>Mew</td>
+               <td><img src="Imagens/Tipos/psychic.png"></td>
+               <td><img src="Imagens/Pokemons/Kanto/151.png" width="120px" heidth="120px"></td>
+            </tr>
+         </table>
+      </div>
+      </br>
+      
+      <footer class="rodape">
+      <div>
+         <div>
+      <img src="Imagens/Icones/footer.png" heigth ="150" width="150">
+      <img src="Imagens/Icones/web-logo.png" heigth ="120" width="120">
+      </div>
+         <div>
+            <p>Best Dex Go! Project </br>
+             Development: @marcelo_m._
+             </br>
+             Email: bestdex_go@outlook.com
+             </br>
+             </br>
+             &copyBlue Dream Desenvolvimento Web
+            <p class="data_f" style="color:gray; text-align:center; font-size:10px;">Atualizado: dd/mm/aaaa</p>
+            <script src="Js/date.js"></script>
+         </div>
+         </div>
+      </footer>
+   </body>
+</html>
