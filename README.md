@@ -1,2 +1,2 @@
 # Best Dex Go!
- Pokedex parajogadores de Pkemon GO!
+ Pokedex para jogadores de Pokemon GO!
