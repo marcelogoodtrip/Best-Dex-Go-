@@ -157,6 +157,7 @@ h1{
 			font-size: 22px;
 			letter-spacing: 1px;
 			text-decoration: solid;
+			width: 70%;
 			border: 1px solid white;
 			border-left-color: linear-gradient(#90EE90, #DDA0DD);
       		background:linear-gradient(#D3D3D3, #A9A9A9, #D3D3D3);
