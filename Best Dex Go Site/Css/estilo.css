@@ -6,8 +6,8 @@ body{
 .cabecalho{
 				margin: 0px -10px 0px -12px;
 				position:relative;
-     			height:1000px;
-    			display:flex;
+     			        height:1000px;
+    			        display:flex;
 				flex-direction:column;
 				background:linear-gradient(#800000, #8B0000, #B22222, #A52A2A);
 				padding:8px;
